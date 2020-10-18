@@ -1,0 +1,13 @@
+class StringDemo {
+
+	public static void main(String[] args) {
+	
+		String s1 = new String();
+		System.out.println(s1);			// NULL
+		System.out.println(s1.length());	// 0
+		
+		String s2 = new String("Shashi");
+		System.out.println(s2);			// Shashi
+		System.out.println(s2.length());	// 6
+	}
+}
